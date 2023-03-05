@@ -1,0 +1,490 @@
+/* Poppins Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* text-align: center; */
+}
+
+body {
+    width: 100%;
+    background: #e5e7eb;
+    position: relative;
+    display: flex;
+}
+
+/* globle styling */
+:root {
+    --black: black;
+    --maroon: maroon;
+    --light-maroon: #AE0000;
+    --Tangerine: #f38b00;
+    --light-color: #666;
+    --box-shadow: 0 .3rem 0.5rem rgba(0, 0, 0.1);
+    --border: 2rem solid rgba(0, 0, 0.1);
+    --outline: .1rem solid rgba(0, 0, 0.1);
+    --padding: 40px 80px;
+    --margin: 40px 0;
+
+}
+
+/* For Button */
+.normal {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+/* Click To Top */
+.Arrow-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+
+}
+
+.Arrow-btn a {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background: var(--light-maroon);
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Arrow-btn a span {
+    color: #fff;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+
+/* menu */
+#Menu {
+    background: var(--light-maroon);
+    width: 350px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+#Menu .logo {
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding: 30px 0 15px 30px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+#Menu .logo a {
+    color: #fff;
+
+}
+
+#Menu .items {
+    margin-top: 40px;
+
+}
+
+#Menu .items li {
+    list-style: none;
+    padding: 15px 0;
+    transition: 0.3s ease;
+}
+
+#Menu .items li:hover {
+    background: #DC0000;
+    cursor: pointer;
+}
+
+#Menu .items .Active {
+    border-left: 4px solid #fff;
+}
+
+
+#Menu .items li i {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 10px 0 25px;
+    /* font-size: 20px; */
+}
+
+#Menu .items li:hover i {
+    /* color: #f3f4f6; */
+    font-weight: 600;
+}
+
+#Menu .items li:hover a {
+    /* color: #f3f4f6; */
+    font-weight: 600;
+}
+
+#Menu .items li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+#Menu form a {
+    position: fixed;
+    left: 27px;
+    margin-top: 5px;
+    background: var(--Tangerine);
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* Reports  width: 100%;*/
+/* #Reports-InterFace{
+    width: 100%;
+}
+ */
+
+
+
+/* NavBar */
+#InterFace {
+    width: calc(100% - 350px);
+    margin-left: 350px;
+    position: relative;
+}
+
+#InterFace .Navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 30px;
+    border-bottom: 3px solid var(--maroon);
+    position: fixed;
+    width: calc(100% - 350px);
+}
+
+#InterFace .Navigation .Search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+
+}
+
+#InterFace .Navigation .Search i {
+    margin-right: 15px;
+
+}
+
+#InterFace .Navigation .Search input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#InterFace .Navigation .Profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#InterFace .Navigation .Profile i {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+#InterFace .Navigation .Profile img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.N1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#Menu-Btn {
+    color: #2b2b2b;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;
+}
+
+.I-name {
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 70px;
+
+}
+
+.I-name-2 {
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+
+.order-I-Name-2 {
+    margin-top: 70px;
+
+}
+
+.Values {
+    padding: 30px 30px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.Values .Val-Box {
+    background: #fff;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Values .Val-Box i {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+
+    margin-right: 15px;
+
+}
+
+.Values .Val-Box:nth-child(1) i {
+    background: var(--light-maroon);
+
+}
+
+.Values .Val-Box:nth-child(2) i {
+    background: var(--light-maroon);
+
+}
+
+.Values .Val-Box:nth-child(3) i {
+    background: var(--light-maroon);
+
+}
+
+.Values .Val-Box:nth-child(4) i {
+    background: var(--light-maroon);
+
+}
+
+.Values .Val-Box h3 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.Values .Val-Box span a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #828997;
+}
+
+.Values .Val-Box span a:hover {
+    font-size: 20px;
+    color: var(--maroon);
+
+}
+
+
+.Board {
+    width: 95%;
+    margin: 30px 0 30px 30px;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+thead td {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #f9fafb;
+    text-align: start;
+    padding: 15px;
+}
+
+tbody tr td {
+    padding: 10px 15px;
+
+}
+
+
+.Edit a,
+.Remove a {
+    text-decoration: underline;
+    font-size: 18px;
+    color: var(--light-maroon);
+    font-weight: 600;
+}
+
+.Board h5 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+}
+
+
+
+.Board p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #eef0f3;
+}
+
+
+/* Add product */
+
+
+#Form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 50px;
+    border: 1.5px solid #e1e1e1;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#Form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Form-details form textarea,
+#Form-details .Address-return,
+#Form-details form input,
+#Form-details form div input,
+#Form-details form select {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #171717;
+    font-size: 20px;
+}
+
+#Form-details form div input {
+    color: #fff;
+    background: var(--light-maroon);
+    letter-spacing: 2px;
+}
+
+#Form-details form div input:hover {
+    background: var(--Tangerine);
+}
+
+/* Added Product */
+
+.Board img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+/* Update Product */
+
+#Update_products {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 50px;
+    border: 1.5px solid #e1e1e1;
+    background: #fff;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+#Update_products form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Update_products form textarea,
+#Update_products .Address-return,
+#Update_products form input,
+#Update_products form div input,
+#Update_products form select {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #171717;
+    font-size: 20px;
+}
+
+#Update_products form img {
+    border: 1px solid #171717;
+    margin-bottom: 20px;
+
+}
+
+#Update_products form div input {
+    color: #fff;
+    background: var(--light-maroon);
+    letter-spacing: 2px;
+}
+
+#Update_products form div input:hover {
+    background: var(--Tangerine);
+}

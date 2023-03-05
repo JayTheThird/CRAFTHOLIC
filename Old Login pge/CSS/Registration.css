@@ -1,0 +1,78 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* Bebas Neue Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+
+    /* background-color: #a7acd7; */
+    
+}
+
+div.popup-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+div.popup-container div.register-popup{
+    background-color: white;
+    border: 2px solid #C48888;
+    width: 400px;
+    border-radius: 5px;
+    padding: 40px 50px 40px 50px;
+    
+}
+
+div.popup-container div.register-popup h2{
+    color: black;
+    margin:10px 0;
+    font-size: 30px;
+}
+
+div.popup-container div.register-popup input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 0;
+    outline: none;
+}
+div.popup-container div.register-popup input:focus{
+    border-bottom: 2px solid maroon;
+
+}
+
+div.popup-container div.register-popup button.Register-btn{
+    font-weight: 500px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: white;
+    margin: 15px 0px;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+

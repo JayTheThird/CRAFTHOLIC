@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root {
+    --black: black;
+    --maroon: maroon;
+    --light-maroon: #AE0000;
+    --Tangerine: #f38b00;
+    --light-color: #666;
+    --box-shadow: 0 .3rem 0.5rem rgba(0, 0, 0.1);
+    --border: 2rem solid rgba(0, 0, 0.1);
+    --outline: .1rem solid rgba(0, 0, 0.1);
+    --padding: 40px 80px;
+    --margin: 40px 0;
+
+}
+
+
+body {
+    background-color: #f38b00;
+}
+.forms .title span::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    height: 2px;
+    width: 55%;
+    background-color: var(--light-maroon);
+    border-radius: 25px;
+  }
+.container .forms .title span {
+    color: var(--light-maroon);
+    font-size: 35px;
+}
