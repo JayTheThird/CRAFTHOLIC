@@ -1,0 +1,7 @@
+for git follow 3 stap to upload code 
+
+first  :: git add .
+
+second :: git commit -m "<comment>"
+
+third :: git push
