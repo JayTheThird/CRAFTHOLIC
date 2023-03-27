@@ -12,7 +12,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4>Releasing on 1 march 2023 </h4>
+                 <h4>Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -26,7 +26,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4>Releasing on 1 march 2023 </h4>
+                 <h4>Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -40,7 +40,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4>Releasing on 1 march 2023 </h4>
+                 <h4>Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -56,7 +56,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div> -->
-                 <h4>Releasing on 1 march 2023 </h4>
+                 <h4>Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -78,7 +78,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -92,7 +92,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -106,7 +106,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -123,7 +123,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -145,7 +145,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -159,7 +159,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -173,7 +173,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa  fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>
@@ -190,7 +190,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div> -->
-                 <h4> Releasing on 1 march 2023 </h4>
+                 <h4> Releasing on 31 March 2023 </h4>
              </div>
              <!-- <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a> -->
          </div>

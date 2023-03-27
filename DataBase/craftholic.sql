@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 03, 2023 at 05:40 AM
+-- Generation Time: Mar 11, 2023 at 06:39 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -129,7 +129,7 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`C_ID`, `F_NAME`, `L_NAME`, `CONTECT_NUMBER`, `EMAIL`, `PWD`, `R_date`, `Token`, `TokenExpire`) VALUES
-(1, 'Admin', 'test', '9428913811', 'jaypatel161200@gmail.com', '$2y$10$l2Nrm4ehv2Ik2IWoDJKTru7WYdV7H2EbuBy0ocQgO4cBMJTbk..ae', '2023-03-03', NULL, NULL);
+(1, 'Admin', 'test', '9428913811', 'jaypatel161200@gmail.com', '$2y$10$V/HKe0PbRVwUxuFMeDpzcOv.BljN0B9o.bkNGXBx6Q5tefAHXC1p2', '2023-03-03', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -163,7 +163,8 @@ INSERT INTO `shippingaddress` (`sa_id`, `Date`, `Status`, `Name`, `Number`, `Ema
 (10101, '2023-03-02', 'Dispatch', 'jayb', 1111111111, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'jay', 'Ahmedabad ', 'Gujarat', 'India', 111111, 'Abstract Bliss Ganesha(1)', 1000),
 (10102, '2023-03-02', 'Delivered', 'jay Bhardiya ', 2147483647, 'mmtbharadiya@gmail.com', 'Razorpay', 'c/37', 'nishant Banglows', 'Ahmedabad ', 'gujarat', 'India', 382350, 'Abstract Bliss Ganesha(1), Radhe Krishna Five Panel (1), Nilkamal Jumping Horse(4)', 15195),
 (10103, '2023-03-02', 'Active', 'juhilB', 1111111111, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant ', 'Ahmedabad ', 'gujarat', 'India', 111111, 'Watch With Ruby & CZ Ston(1)', 1500),
-(10104, '2023-03-02', 'Active', 'Darshil', 1212121223, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad ', 'Gujarat', 'India', 282350, 'Abstract Bliss Ganesha(1), illuminated Mosque (2), Watch With Ruby & CZ Ston(1)', 12498);
+(10104, '2023-03-02', 'Active', 'Darshil', 1212121223, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad ', 'Gujarat', 'India', 282350, 'Abstract Bliss Ganesha(1), illuminated Mosque (2), Watch With Ruby & CZ Ston(1)', 12498),
+(10105, '2023-03-11', 'Delivered', 'Jay testing', 2147483647, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad ', 'Gujarat', 'India', 382350, 'Abstract Bliss Ganesha(1)', 1000);
 
 --
 -- Indexes for dumped tables
@@ -219,7 +220,7 @@ ALTER TABLE `admin-login`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=119;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -243,7 +244,7 @@ ALTER TABLE `registration`
 -- AUTO_INCREMENT for table `shippingaddress`
 --
 ALTER TABLE `shippingaddress`
-  MODIFY `sa_id` bigint(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10105;
+  MODIFY `sa_id` bigint(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10106;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
