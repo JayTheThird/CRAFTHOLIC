@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 11, 2023 at 06:39 AM
+-- Generation Time: Mar 30, 2023 at 06:18 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -84,7 +84,14 @@ INSERT INTO `products` (`P_ID`, `P_names`, `Category_Name`, `P_price`, `P_Image1
 (5, 'illuminated Mosque ', 'WallDecor', '4999', '1677206954-image2_2.jpg', 'Size: L19\" X W722\"\r\nMaterial: Made of imported high quality Engineered wood for sturdiness and unique wood texture\r\nFinish: Asian Paints Melamine wood polish matte finish for long life and superior finish\r\nBrilliant design, allowing light to fall on back ', '2023-02-24'),
 (6, 'Ganesh Riddhi Siddhi', 'Gifting', '10150', '1677207280-image8_8.jpg', 'These Ganesh Riddhi Siddhi silver products come with a guarantee of 92. 5% silver purity. ', '2023-02-24'),
 (7, 'Nilkamal Jumping Horse', 'HomeDecor', '2799', '1677207481-image6_6.jpg', 'This is Nilkamal Jumping Horse (Black And Gold)', '2023-02-24'),
-(8, 'Shubh Labh With Backlit', 'WallDecor', '1799', '1677207609-image4_4.jpg', 'This is Shubh Labh With Backlit White Light', '2023-02-24');
+(8, 'Shubh Labh With Backlit', 'WallDecor', '1799', '1677207609-image4_4.jpg', 'This is Shubh Labh With Backlit White Light', '2023-02-24'),
+(10, 'Lamp ', 'Gifting', '1000', '1679916750-image12_12.jpg', 'this is regular test 27-3-23', '2023-03-27'),
+(11, 'Blue Vinyl Radhe Krishna', 'HomeDecor', '1000', '1680059537-image4_4.jpg', 'Radhe Krishna Photo , Color :: Blue, Dimensions :: 25.40 * 1.19 * 48\r\n.26 (in Centimeter)', '2023-03-29'),
+(12, 'Mandala Art Metel Wall Ar', 'WallDecor', '4599', '1680059802-image3_3.jpg', 'Concentration is somewhere the key to enjoy peace and calmness. This Mandala art work being designed by its experts let you enjoy peace in a serene environment with the enchanting LED lights', '2023-03-29'),
+(13, ' Oxidised Anklet', 'Gifting', '999', '1680060013-image2_2.jpg', 'Dreamcatchers are said to ward off bad dreams. They are beautiful, trending and here to stay! This oxidised anklet is inspired by the same.', '2023-03-29'),
+(14, 'Brick Floor Vase(Brown)', 'HomeDecor', '7699', '1680060314-image3_3.jpg', 'Width :: 7 inch\r\nDepth :: 7 inch\r\nHeight :: 32 inch\r\nPrimary Material :: Mango Wood ', '2023-03-29'),
+(15, 'Window Frame WoodenMirror', 'WallDecor', '6499', '1680060515-image5_5.jpg', 'Uncompromising in style, aesthetic and quality, this exquisite designer arch wall mirror will make a classy and stunning component in any contemporary living space. The genuine magnificence of this mirror lies in its artfully crafted wooden frame', '2023-03-29'),
+(16, 'Clock Potpourri ', 'Gifting', '9980', '1680061096-image5_5.jpg', 'Potpourri Clock is Totally Made With Silver with 92.5% purity', '2023-03-29');
 
 -- --------------------------------------------------------
 
@@ -129,7 +136,10 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`C_ID`, `F_NAME`, `L_NAME`, `CONTECT_NUMBER`, `EMAIL`, `PWD`, `R_date`, `Token`, `TokenExpire`) VALUES
-(1, 'Admin', 'test', '9428913811', 'jaypatel161200@gmail.com', '$2y$10$V/HKe0PbRVwUxuFMeDpzcOv.BljN0B9o.bkNGXBx6Q5tefAHXC1p2', '2023-03-03', NULL, NULL);
+(1, 'Jay', 'Bhardiya', '9428913811', 'jaypatel161200@gmail.com', '$2y$10$2k6nLEmVUEdFq3QC0J7sbOa//Cu4Sm.5TMjIFN6oY4suw12c6wqJW', '2023-03-03', NULL, NULL),
+(2, 'Darshil', 'Malaviya', '1234567890', 'admin@test.com', '$2y$10$an2h18X4OXaMMU8Ykw1wnO.Gc0CpoF9OctAHZ/LBGinbpGosBG4KS', '2023-03-27', NULL, NULL),
+(3, 'Harpal', 'Chodvadiya', '9876543210', 'Admintest123@gmail.com', '$2y$10$skxEGRFKONNjD5vjXJirD.5anKSSTE42wllxA5BaL8.wRp0hvtmYy', '2023-03-27', NULL, NULL),
+(4, 'Admin', 'Test', '1111111111', 'harpalchodvadiya@Gmail.com', '$2y$10$aLV55bMIunnGb9nY4I8Nxei1KiezIKunonhJHV2XdAEq6UfRmPMEC', '2023-03-27', '571368384f354c3d07832a8f07f2c32f', '2023-03-27');
 
 -- --------------------------------------------------------
 
@@ -164,7 +174,11 @@ INSERT INTO `shippingaddress` (`sa_id`, `Date`, `Status`, `Name`, `Number`, `Ema
 (10102, '2023-03-02', 'Delivered', 'jay Bhardiya ', 2147483647, 'mmtbharadiya@gmail.com', 'Razorpay', 'c/37', 'nishant Banglows', 'Ahmedabad ', 'gujarat', 'India', 382350, 'Abstract Bliss Ganesha(1), Radhe Krishna Five Panel (1), Nilkamal Jumping Horse(4)', 15195),
 (10103, '2023-03-02', 'Active', 'juhilB', 1111111111, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant ', 'Ahmedabad ', 'gujarat', 'India', 111111, 'Watch With Ruby & CZ Ston(1)', 1500),
 (10104, '2023-03-02', 'Active', 'Darshil', 1212121223, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad ', 'Gujarat', 'India', 282350, 'Abstract Bliss Ganesha(1), illuminated Mosque (2), Watch With Ruby & CZ Ston(1)', 12498),
-(10105, '2023-03-11', 'Delivered', 'Jay testing', 2147483647, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad ', 'Gujarat', 'India', 382350, 'Abstract Bliss Ganesha(1)', 1000);
+(10105, '2023-03-11', 'Delivered', 'Jay testing', 2147483647, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad ', 'Gujarat', 'India', 382350, 'Abstract Bliss Ganesha(1)', 1000),
+(10106, '2023-03-18', 'Delivered', 'Admin Test', 2147483647, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows', 'Ahmedabad', 'Gujarat ', 'India', 382350, 'Abstract Bliss Ganesha(2)', 2000),
+(10107, '2023-03-27', 'Delivered', 'Regular test', 2147483647, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows ', 'Ahmedabad ', 'Gujarat', 'India', 382350, 'Radhe Krishna Five Panel (2)', 5998),
+(10108, '2023-03-27', 'Delivered', 'Admin Test 1', 1111111111, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'Nishant Banglows ', 'Ahmedabad ', 'Gujarat', 'India', 382350, 'Abstract Bliss Ganesha(3)', 3000),
+(10109, '2023-03-29', 'Dispatch', 'jay b', 1111111111, 'jaypatel161200@gmail.com', 'Razorpay', 'c/37', 'nishant ', 'Ahmed ', 'gujarat', 'India', 382350, 'Abstract Bliss Ganesha(2)', 2000);
 
 --
 -- Indexes for dumped tables
@@ -220,13 +234,13 @@ ALTER TABLE `admin-login`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `P_ID` bigint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `P_ID` bigint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `product_category`
@@ -238,13 +252,13 @@ ALTER TABLE `product_category`
 -- AUTO_INCREMENT for table `registration`
 --
 ALTER TABLE `registration`
-  MODIFY `C_ID` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `C_ID` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `shippingaddress`
 --
 ALTER TABLE `shippingaddress`
-  MODIFY `sa_id` bigint(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10106;
+  MODIFY `sa_id` bigint(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10110;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
